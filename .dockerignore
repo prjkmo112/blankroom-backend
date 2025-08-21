@@ -1,0 +1,57 @@
+# Node modules
+node_modules
+npm-debug.log*
+
+# Build outputs
+dist
+coverage
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Git
+.git
+.gitignore
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Docker
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Testing
+test
+coverage
+*.spec.ts
+*.test.ts
+
+# Documentation
+README.md
+*.md
+
+# Temporary files
+.tmp
+.temp
+
+# ESLint and Prettier
+.eslintrc*
+.prettierrc*
+eslint.config.*
+
+# Development docker data
+docker-data
