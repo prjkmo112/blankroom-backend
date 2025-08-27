@@ -22,7 +22,7 @@ export class AuthController {
     const { access_token } = await this.authService.login(loginform.username, loginform.password);
     res.cookie(process.env.COOKIE_AUTH_KEY_TOKEN, access_token, {
       httpOnly: true,
-      secure: true,
+      secure: false,
       sameSite: 'strict',
       maxAge: 30 * 60 * 1000,
       path: '/',
